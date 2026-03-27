@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+	<header>
+			<title>html atsiskaitymas</title>
+	</header>
+	<body>
+       <style>
+div {
+  background-color: #a3ffce;
+}
+</style>
+
+    </body> 
+</html>
+
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+<title>Raktu gamyba</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>Raktų gamyba ir progravimas</h2>
+
+<div>
+    <ul>
+  <h4>atliekam darbus:</h4>
+  <li>jeigu užsitrenkė jūsų automobilio durys ir rakteliai liko mašinoje ar buvo pamesti, padėsim ir atidarysim duris</li>
+  <li>gamyba raktų</li>
+  <li>pririsimas raktų</li>
+  <li>senų raktų išprogramavimas</li>
+  </ul>
+</div>
+<header>
+    <a href="https://google.lt">www.raktukas.lt</a>
+    
+            <img src="https://www.xhorseshop.eu/upload/pro-md/20052115900495312803.jpg" width="300" height="300"/>
+            <img src="https://www.xhorseshop.eu/upload/pro-md/23032116793819437885.jpg" width="300" height="300"/>
+            <img src="https://www.xhorseshop.eu/upload/pro-md/22092116637478113388.jpg" width="300" height="300"/>
+    <a href="https://google.lt">darbo įrankiai</a>
+            
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Jonava</a></li>
+      <li><a href="#">Kėdainiai</a></li>
+      <li><a href="#">Kaišiadorys</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Paslaugos</h1>
+    <p>Atvykstam iki vietos jums patogiu laiku</p>
+    <p>Dirbam 7/24</p>
+  </article>
+</section>
+
+<footer>
+  <p>Svetainė: www.Raktukas.lt</p>
+  <p>Miestas: Jonava</p>
+  <p>Miestas: Kėdainiai</p>
+  <p>Miestas: Kaišiadorys</p>
+</footer>
+
+</body>
+</html>
